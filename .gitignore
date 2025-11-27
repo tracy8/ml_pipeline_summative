@@ -1,9 +1,6 @@
 # Ignore large data & models
 uploaded/
 data/
-notebook/
-*.csv
-*.pkl
 *.onnx
 *.zip
 
