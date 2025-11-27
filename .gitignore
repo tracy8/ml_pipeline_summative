@@ -1,5 +1,4 @@
 # Ignore large data & models
-models/
 uploaded/
 data/
 notebook/
