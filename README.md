@@ -89,7 +89,7 @@ Start the backend
 
 ```bash
 uvicorn api.main:app --reload
-```
+````
 
 Launch the Streamlit UI
 
