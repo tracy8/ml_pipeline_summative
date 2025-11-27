@@ -3,7 +3,6 @@ uploaded/
 data/
 notebook/
 *.csv
-*.h5
 *.pkl
 *.onnx
 *.zip
