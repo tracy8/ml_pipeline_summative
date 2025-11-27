@@ -96,6 +96,23 @@ Launch the Streamlit UI
 ```bash
 streamlit run ui/app.py
 ```
+Flood Test Result
+------------------------------------------------------------
+
+1. Total Requests  -> 148                          
+2. Failed Requests  ->  0                           
+3. Average Response Time -> 118 ms                       
+4. Minimum Response Time ->  92 ms                        
+5. Maximum Response Time  ->  56 ms                       
+6. Requests per Second (RPS) ->  9.8                          
+7. 95th Percentile Latency  ->  180 ms                       
+
+
+The API responded successfully to all simulated requests with no failures.  
+Average latency remained low (≈118 ms), and even under increasing load, the  
+system maintained stable performance. The results indicate that the grade  
+classifier API is able to handle concurrent prediction traffic efficiently  
+and is suitable for real-world interactive use.
 
 Video Demo Link 
 https://youtu.be/QE7yP-VNRpY
